@@ -1,0 +1,29 @@
+.home-main{
+    width: 100%;
+    .navbar{
+        background-color: #006E59;
+        .login-out> *{
+            width: 6rem;
+            height: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+        .item>*{
+            transition: 600ms;
+        }
+        .item>*:hover{
+            // background-color: white;
+            font-size: larger;
+        }
+    }
+    .home{
+        .prd-banner{
+            width: 100%;
+            height: 30rem;
+            background-image: url(https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg);
+            background-size: cover;
+            background-position: 20%;
+        }
+    }
+}
